@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="RMS_V1_MavenProject"> 
+  <listeners> 
+    <listener class-name="com.RMS.Utilities.Reporting"/> 
+  </listeners> 
+  <test name="RMS Automation Test" > 
+    <parameter name="Browser" value="Chrome"/> 
+    <classes> 
+      <class name="com.RMS.TestCases.TC_TopmenuButtonaTest_001"/> 
+      <class name="com.RMS.TestCases.TC_ShopManagementMenuItemsTest_002"/> 
+      <class name="com.RMS.TestCases.TC_SecurityMENUTest_003"/> 
+    </classes> 
+  </test> 
+</suite> 
